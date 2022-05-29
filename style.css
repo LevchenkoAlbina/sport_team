@@ -9,3 +9,8 @@ a:hover {
   color: white;
   background-color: black;
 }
+header a {
+  padding: 10px;
+  text-decoretion: none;
+  border-radius: 45px;
+}
