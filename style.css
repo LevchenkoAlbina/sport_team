@@ -9,6 +9,12 @@ a:hover {
   color: white;
   background-color: black;
 }
+
+header img{
+  width: 25px;
+  height: 25px;
+}
+
 header nav a {
   padding: 10px;
   text-decoretion: none;
