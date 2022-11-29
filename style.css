@@ -1,57 +1,125 @@
- header a {
-    color: black;
-    font-size: 20px;
-    border: 5px dotted darkblue;
-    background-color: lightblue;
+ body{
+	padding: 0;
+	margin: 0;
+	font-family: "Anton";
+	color: 000;
+	font-size: 16px;
+	background: linear-gradient(106.75deg, #0000FF 0%, #FF00FF 100%) no-repeat center top / cover;
+}
+
+h1, h2, h3, h4, h5, h6{
+	padding: 0;
+	margin: 0;	
+}
+
+ul, li{
+	display: block;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+}
+
+header a {
+	color: white;
+}
+
+.menu{
+	display: flex;
+}
+
+.menu li a{
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 14px;
+	letter-spacing: 0.1em;
+} 
+
+.menu li{
+	margin-right: 40px;
+}
+
+.logo{
+	margin-right: 70px;
+}
+
+.tel{
+	font-size: 17px;
+	text-decoration: none;
+	margin-left: auto;
+	letter-spacing: 0.1em;
+}
+
+.nav{
+	display: flex;
+	align-items: center;
+	padding: 50px;
+}
+
+.offer {
+	text-transform: uppercase;
+	margin-top: 216px;
+}
+
+.offer p {
+	font-size: 30px;
+	letter-spacing: 0.1em;
+}
+
+.offer h1 {
+	font-size: 100px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em
+}
+
+.btn {
+	display: block;
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	padding: 17px 47px;
+	border: 1px solid #fff;
+	width: 238px;
+	transition: all 0.5s ease;
+}
+
+.btn:hover {
+	background: #fff;
+    color: #000;
     text-decoration: none;
-    padding: 2px;
-    border-radius: 30px;
+    font-family: "Anton";
 }
 
-a:hover {
-    color: white;
-    background-color: black;
+.description {
+	display: flex;
+	justify-content: space-between;
 }
 
-header img{
-    width: 50px;
-    height: 50px;
+.description p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	text-align: justify;
+	line-height: 1.62em;
 }
 
-header nav a {
-    padding: 10px;
-    border-radius: 30px;
+.desc-left, .desc-right {
+	width: 567px;
 }
 
-header{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+.gallery {
+	margin-top: 67px;
+	display: flex;
+	justify-content: space-between;
+	height: 300px;
 }
 
-h1 {
-  font-family: 'Inter';
-  font-style: normal;
-  font-weight: 800;
-  font-size: 50px;
-  line-height: 50px;
-  color: #ffffff;
-  text-align: center;
-  margin-top: 138px;
-  margin-bottom: 20px;
+.gallery img {
+	transition: all 0.5s ease;
 }
 
-footer a {
-    padding: 10px 10px;
-    background: linear-gradient(106.75deg, #99CCFF 0%, #0000FF 100%);
-    border-radius: 30px;
-    margin:10px 10px;
-    text-align: center;
-    color: white;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-footer a:hover {
-    background: linear-gradient(106.75deg, #0000CC 0%, #00FFFF 100%);
+.gallery img:hover {
+	box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+	transform: scale(1.1);
 }
